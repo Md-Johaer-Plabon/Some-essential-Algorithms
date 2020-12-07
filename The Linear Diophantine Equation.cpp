@@ -19,7 +19,7 @@ int main() {
 	int a,b,c,q,r1,r2,r,s1=1,s2=0,s,t1=0,t2=1,t;
 	
 	cin>>a>>b>>c;
-	if(c%__gcd(a,b)){cout<<"Solution DOesn't Exist"<<endl;return 0;}
+	if(c%__gcd(a,b)){cout<<"Solution Doesn't Exist"<<endl;return 0;}
 	r1=a,r2=b;
 	while(r2){
 		q=r1/r2;
