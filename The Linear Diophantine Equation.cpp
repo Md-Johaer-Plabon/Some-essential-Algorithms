@@ -8,7 +8,7 @@ using namespace std;
     ax + by = c if c%gcd(a,b)==0; where, 
     
     we know ,
-      a(xg) + b(yg) = gcd(a,b) or g,
+      a(xg) + b(yg) = gcd(a,b) or g, [According to Euclideian Extended GCD algorithm]
       then divide by g and multiplied by c we get,
        => a(xg*c/g) + b(yg*c/g) = g*c/g or c;
        so, x= (xg*c/g) and y= (yg*c/g) .
