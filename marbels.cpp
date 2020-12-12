@@ -26,17 +26,16 @@ int main (){
 		ll x,y;
 		x=s*n/g;
 		y=t*n/g;
-		ll k1=abs(x)/b1,k2=abs(y)/a1;
-		if(k1>k2)swap(k1,k2);
-		ll x0,y0,ansx,ansy,cost=900000000000000;
-		for(ll i=k1;i<=k2;i++){
-		    x0= x + i*b1/g;
-		    y0= y - i*a1/g;
-		    if(x0>0&&y0>0){
-		      if(cost>x0*c1+y0*c2)
-		      cost=x0*c1+y0*c2,ansx=x0,ansy=y0;
-		    }
-		}
+		ll k1=ceil(-x*g/(double)b1),k2=floor(y*g/(double)a1);
+		if(k1>k2){cout<<"failed"<<endl;continue;}
+		ll x0,y0,x1,y1,ansx,ansy,cost=900000000000000;
+		    x0= x + k1*b1/g;
+		    y0= y - k1*a1/g;
+		    x1= x + k2*b1/g;
+		    y1= y - k2*a1/g;
+		    cost= x0*c1+y0*c2;
+		    if(cost<x1*c1+y1*c2)ansx=x0,ansy=y0;
+		    else ansx=x1,ansy=y1;
 		cout<<ansx<<" "<<ansy<<endl;
 	}
 	return 0;
