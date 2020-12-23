@@ -1,3 +1,5 @@
+if d is a disivior of n , there exists only etf_of_phi[n/d] pairs where gcd of all pairs are d.
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long 
