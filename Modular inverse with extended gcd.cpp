@@ -22,6 +22,6 @@ void EE(ll a, ll b, ll& x, ll& y){
 
 int main() {
 	int a,b,x,y;
-	EE(a,b,x,y);
+	EE(a,mod,x,y);
 	ll modinv = (x+mod)%mod;
 }
