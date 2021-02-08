@@ -1,6 +1,6 @@
 /* 
 Source : Geeskforgeeks 
-Complexity : O(Node^2)
+Complexity : O(Node*edges)
 */ 
 
 
