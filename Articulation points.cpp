@@ -21,7 +21,7 @@ void AP(int x){
   	
   	low[x] = min(low[x],low[v[x][i]]); //Storing minimum value for low array in recursive time between parent and child node. 
   	
-  	if(parent[x]!=-1&&vis[x]<=low[v[x][i]]) // Except root node the condition is satisfied for being the node as articulation point.
+  	if(parent[x]!=-1&&vis[x]<=low[v[x][i]]) // Except root node the condition is satisfied for being considered the node as articulation point.
   	ap[x]=1; 
   	
   }	
