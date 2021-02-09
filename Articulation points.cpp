@@ -2,7 +2,8 @@
 Name : Johaer Plabon 
 Dept : CSE,Sylhet Engineering College. 
 Algorithm : Articulation points (Tarzan's Algorithm). 
-Complexity : O(V+E) 
+Complexity : O(V+E)  
+Prerequisite : Concepts of DFS tree,Back edge,DFS traversing discovering time.
 */ 
 
 
