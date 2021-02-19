@@ -2,7 +2,7 @@
 Name : Johaer Plabon 
 Dept : CSE,Sylhet Engineering College
 */ 
-----> Wprst Case for dsu where path compression is necessary.
+----> Worst Case for dsu where path compression is necessary.
 
 #include <bits/stdc++.h>
 using namespace std;
