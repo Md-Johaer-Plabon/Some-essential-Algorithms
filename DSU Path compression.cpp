@@ -19,6 +19,7 @@ void un(int x,int y){
 	int a = find(x); 
 	int b = find(y); 
 	
+	if(a!=b)
 	par[a] = b;
 }
 
